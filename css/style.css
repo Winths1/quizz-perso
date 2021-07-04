@@ -1,0 +1,43 @@
+body{
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #333;
+}
+.question{
+    font-weight: 600;
+    font-size:1.1em;
+}
+.reponses {
+  margin-bottom: 20px;
+}
+.reponses label{
+  display: block;
+}
+#resultats{
+    font-size:1.3em;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #38a;
+}
+
+p{
+	font-weight: bold;
+}
+.answers{
+	display: flex;
+	flex-direction: column;
+}
+#quiz{
+	display: flex;
+}
